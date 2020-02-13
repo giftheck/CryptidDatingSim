@@ -9,7 +9,7 @@ public class PauseTheGame : MonoBehaviour
     public GameObject pauseCanvasUI;
     public GameObject pauseButton;
 
-    void OnClick()
+    public void OnClick()
     {
         pauseCanvasUI.SetActive(true);
         pauseButton.SetActive(false);
