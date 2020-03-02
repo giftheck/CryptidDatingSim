@@ -5,14 +5,13 @@ using UnityEngine.UI;
 
 public class UnpauseTheGame : MonoBehaviour
 {
-
     public GameObject pauseCanvasUI;
-    public GameObject pauseButton;
+    public GameObject mainUICanvas;
 
-    void OnClick()
+    public void OnClick()
     {
         pauseCanvasUI.SetActive(false);
-        pauseButton.SetActive(true);
+        mainUICanvas.SetActive(true);
         Time.timeScale = 1.0f;
     }
 }
