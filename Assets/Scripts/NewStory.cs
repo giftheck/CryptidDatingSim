@@ -9,6 +9,7 @@ public class NewStory : MonoBehaviour
     public string storyName;
     public void OnClick()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene(storyName);
     }
 }
